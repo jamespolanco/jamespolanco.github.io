@@ -19,6 +19,12 @@ h1 {
   text-align: center;
   margin: 0 0 10px;
 }
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 0 10px;
+}
 a {
   color: #5cc4d8;
   text-decoration: none;
