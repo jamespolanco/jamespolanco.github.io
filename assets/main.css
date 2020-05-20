@@ -30,6 +30,37 @@ a {
   text-decoration: none;
 }
 
+.stream-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.stream-list li {
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  text-indent: -0.7rem;
+}
+
+.stream-list li::before {
+  content: "📺 ";
+  font-size: 18px;
+}
+
+.stream-list .stream-title {
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 4px;
+}
+
+.stream-list .stream-time {
+  font-style: italic;
+}
+
+.stream-list .stream-desc {
+  margin-left: 28px;
+}
+
 .links ul {
   list-style-type: none;
   margin: 0;
